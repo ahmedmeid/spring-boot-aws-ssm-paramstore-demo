@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${db.url}
+    username: ${db.username}
+    password: ${db.password}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

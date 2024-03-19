@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo
+aws:
+  paramstore:
+    enabled: true
+    region: us-east-2
+    prefix: /config
+    defaultContext: demo
+    profileSeparator: _
